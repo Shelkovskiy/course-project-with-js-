@@ -2,7 +2,7 @@
 71D:\Course-js\course-project-with-js-\node_modules\node-gyp-build\bin.js132996966902034757 0
 82D:\Course-js\course-project-with-js-\node_modules\@parcel\utils\src\getExisting.js132996966926397443 0
 76D:\Course-js\course-project-with-js-\node_modules\svgo\plugins\cleanupIDs.js132996966908098550 0
-49D:\Course-js\course-project-with-js-\package.json132996968440839277 0
+49D:\Course-js\course-project-with-js-\package.json132996971049715631 0
 76D:\Course-js\course-project-with-js-\node_modules\node-addon-api\except.gypi132996966903091934 0
 77D:\Course-js\course-project-with-js-\node_modules\@parcel\transformer-css\src132996966916535995 1
 99D:\Course-js\course-project-with-js-\node_modules\@parcel\hash\parcel-hash.linux-arm-gnueabihf.node132996966916296643 0
@@ -24,7 +24,7 @@
 81D:\Course-js\course-project-with-js-\node_modules\caniuse-lite\data\regions\ET.js132996966937537670 0
 40D:\Course-js\course-project-with-js-\src132996967925784643 1
 123D:\Course-js\course-project-with-js-\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\bar.js132996966909564632 0
-41D:\Course-js\course-project-with-js-\dist132996968858235739 1
+41D:\Course-js\course-project-with-js-\dist132996971122314320 1
 108D:\Course-js\course-project-with-js-\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-test.cmd132996966952442036 0
 74D:\Course-js\course-project-with-js-\node_modules\domutils\lib\legacy.d.ts132996966911688950 0
 68D:\Course-js\course-project-with-js-\node_modules\fill-range\LICENSE132996968432841890 0
@@ -4336,8 +4336,8 @@
 63D:\Course-js\course-project-with-js-\node_modules\.bin\svgo.ps1132996966952422089 0
 65D:\Course-js\course-project-with-js-\node_modules\.bin\terser.cmd132996966952432068 0
 65D:\Course-js\course-project-with-js-\node_modules\.bin\terser.ps1132996966952432068 0
-60D:\Course-js\course-project-with-js-\dist\index.da533f7e.css132996968505007600 0
-64D:\Course-js\course-project-with-js-\dist\index.da533f7e.css.map132996968505137252 0
-59D:\Course-js\course-project-with-js-\dist\index.de5c0784.js132996968505007600 0
-63D:\Course-js\course-project-with-js-\dist\index.de5c0784.js.map132996968505137252 0
-52D:\Course-js\course-project-with-js-\dist\index.html132996968858215786 0
+60D:\Course-js\course-project-with-js-\dist\index.da533f7e.css132996971122214586 0
+64D:\Course-js\course-project-with-js-\dist\index.da533f7e.css.map132996971122264440 0
+59D:\Course-js\course-project-with-js-\dist\index.de5c0784.js132996971122214586 0
+63D:\Course-js\course-project-with-js-\dist\index.de5c0784.js.map132996971122264440 0
+52D:\Course-js\course-project-with-js-\dist\index.html132996971122214586 0
