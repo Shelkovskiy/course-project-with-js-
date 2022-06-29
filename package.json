@@ -1,5 +1,5 @@
 {
-  "name": "Course-js",
+  "name": "Course.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
