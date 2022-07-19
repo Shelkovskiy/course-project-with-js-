@@ -2,7 +2,7 @@
 
 import {BOARD_1_KEY, BOARD_2_KEY,BOARD_3_KEY,
    cardToLocal_1,cardToLocal_2,cardToLocal_3,
-   btn_1,btn_2,btn_3}  from './constants';
+   btn_1,btn_2,btn_3,main_str}  from './constants';
 import {displayCard} from './utils';
 
 let userValue = '';
@@ -110,20 +110,15 @@ userSearch.addEventListener('search',(e) =>{
     return card.label.toUpperCase().includes(userValue);
       })
       // Рисуем  карточки(новый массив) по совпавшим результатам
-   displayCard(filterLabel)
-
-   
-   
-
-
-
+    displayCard(filterLabel)
    } else {
    card_wrapper.className = 'wrapper';
-
    return card_wrapper = displayCard(imageCard);
 }
 
 });
+
+
  
 dropbtn.addEventListener('click', () => {
    document.getElementById("myDropdown").classList.toggle("show");
@@ -141,7 +136,7 @@ window.onclick = function(event) {
      }
    }
  }
-}
+};
 
 
 btn_1.addEventListener('click', () =>{
@@ -151,7 +146,7 @@ btn_1.addEventListener('click', () =>{
     
     }
   
-})
+});
 
 btn_2.addEventListener('click', () =>{
     if(cardToLocal_2){
@@ -159,7 +154,7 @@ btn_2.addEventListener('click', () =>{
       const printCard =  displayCard(cardToLocal_2);
     
     }
-   })
+   });
 
  
 btn_3.addEventListener('click', () =>{
@@ -168,11 +163,16 @@ btn_3.addEventListener('click', () =>{
       const printCard =  displayCard(cardToLocal_3);
     
     }
+   });
+
+ main_str.addEventListener('click',() => {
+
+      card_wrapper.className = 'wrapper';
+      return card_wrapper = displayCard(imageCard);
+   
+   
    })
 
-      
-   const btn__1 = document.getElementsByClassName('addToBoard-1')
-   console.log(btn__1)
 
 
 

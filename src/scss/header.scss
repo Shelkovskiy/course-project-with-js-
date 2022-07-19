@@ -1,15 +1,8 @@
-
-
-
 .header{
   background-color: #e6e6fa;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-
-   
-
-   
    width: 100%;
    padding: 16px;
 
@@ -131,7 +124,6 @@
                border-radius: 10px;
                display: flex;
                overflow: hidden;
-               // flex-direction: column;
                position: relative;
                object-fit: cover;
                opacity: 1;
@@ -175,25 +167,10 @@
                   width: 100%;
                   height: 50px;
                   left: 0;
-                  top: 30px;
-                  background-color: #3498DB;
-                  color: white;
-                  padding: 16px;
-                  font-size: 16px;
-                  border: none;
-                  cursor: pointer;
-                  text-align: center;
-                  position: absolute;
-                  display: none;
-            }
-              .addToBoard-2{
-               width: 100%;
-               height: 50px;
-                  left: 0;
-                  top: 80px;
-                  background-color: #58e915;
-                  color: white;
-                  padding: 16px;
+                  top: 20px;
+                  background-image: linear-gradient(60deg, #e85475 10%, #d48444 50%, #efcb0a 100%);
+                  color: #f7f4f4;
+                  border-radius: 20px;
                   font-size: 16px;
                   border: none;
                   cursor: pointer;
@@ -201,13 +178,39 @@
                   position: absolute;
                   display: none;
       
+                  &:hover{
+                   
+                     transform: scale(0.930);
+                   }
+            }
+            .addToBoard-2{
+               width: 100%;
+               height: 50px;
+                  left: 0;
+                  top: 70px;
+                  background-image: linear-gradient(60deg, #2370b9 10%, #6cd7f5 50%, #6136c7 100%);
+                  color: white;
+                  border-radius: 20px;
+                  padding: 16px;
+                  font-size: 16px;
+                  border: none;
+                  cursor: pointer;
+                  text-align: center;
+                  position: absolute;
+                  display: none;
+                  &:hover{
+                     box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+                     transform: scale(0.930);
+                   }
+      
               }
               .addToBoard-3{
                width: 100%;
                height: 50px;
                   left: 0;
-                  top: 130px;
-                  background-color: #da2cda;
+                  top: 120px;
+                  background-image: linear-gradient(to right, #1a92c3, #2bd885, #1dce79, #27d07f);
+                  border-radius: 20px;
                   color: white;
                   padding: 16px;
                   font-size: 16px;
@@ -216,6 +219,10 @@
                   text-align: center;
                   position: absolute;
                   display: none;
+                  &:hover{
+                     box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+                     transform: scale(0.930);
+                   }
       
               }
       
@@ -238,7 +245,7 @@
     }
  
    .wrapper{
-      margin-top: 50px;
+      margin-top: 40px;
       display: flex; 
       flex-direction: column; 
       flex-wrap: wrap;
@@ -297,25 +304,10 @@
             width: 100%;
             height: 50px;
             left: 0;
-            top: 30px;
-            background-color: #3498DB;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            position: absolute;
-            display: none;
-      }
-        .addToBoard-2{
-         width: 100%;
-         height: 50px;
-            left: 0;
-            top: 80px;
-            background-color: #58e915;
-            color: white;
-            padding: 16px;
+            top: 20px;
+            background-image: linear-gradient(60deg, #e85475 10%, #d48444 50%, #efcb0a 100%);
+            color: #f7f4f4;
+            border-radius: 20px;
             font-size: 16px;
             border: none;
             cursor: pointer;
@@ -323,13 +315,39 @@
             position: absolute;
             display: none;
 
+            &:hover{
+             
+               transform: scale(0.930);
+             }
+      }
+        .addToBoard-2{
+         width: 100%;
+         height: 50px;
+            left: 0;
+            top: 70px;
+            background-image: linear-gradient(60deg, #2370b9 10%, #6cd7f5 50%, #6136c7 100%);
+            color: white;
+            border-radius: 20px;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            position: absolute;
+            display: none;
+            &:hover{
+               box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+               transform: scale(0.930);
+             }
+
         }
         .addToBoard-3{
          width: 100%;
          height: 50px;
             left: 0;
-            top: 130px;
-            background-color: #da2cda;
+            top: 120px;
+            background-image: linear-gradient(to right, #1a92c3, #2bd885, #1dce79, #27d07f);
+            border-radius: 20px;
             color: white;
             padding: 16px;
             font-size: 16px;
@@ -338,6 +356,10 @@
             text-align: center;
             position: absolute;
             display: none;
+            &:hover{
+               box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+               transform: scale(0.930);
+             }
 
         }
 
@@ -378,6 +400,20 @@
      display: flex;
    
     }
+    .main-str{
+      font-family: 'Roboto', sans-serif;
+  font-size: $_28px;
+  font-weight: 700;
+  line-height: 40px;
+     text-align: left;
+     color:rgb(212, 5, 5);
+     display: flex;
+     border: none;
+     background-color: #e6e6fa;
+     cursor: pointer;
+
+
+    }
 
    
   
@@ -407,7 +443,7 @@
 
       .dropbtn {
          width:  150px;
-         background-color: #f12121fb;
+         background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
          color: white;
          padding: 16px;
          font-size: 16px;
@@ -417,7 +453,8 @@
       }
       
         .dropbtn:hover, .dropbtn:focus {
-         background-color: #2a8ad8;
+         background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+       
       }
    
    
@@ -460,7 +497,7 @@
   }
 
 
-  .title::before{
+  .main-str::before{
  
   content: "";
  display: inline-block;

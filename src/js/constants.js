@@ -7,5 +7,5 @@ export const cardToLocal_3 = JSON.parse(localStorage.getItem(BOARD_3_KEY)) ;
 export const btn_1 = document.getElementById('board-1')
 export const btn_2 = document.getElementById('board-2')
 export const btn_3 = document.getElementById('board-3')
-
+export const main_str = document.getElementById('main-str')
 
