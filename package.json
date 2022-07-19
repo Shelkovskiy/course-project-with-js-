@@ -1,12 +1,12 @@
 {
-  "name": "Course.js",
+  "name": "coursejs",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-sass": "^2.6.2",
     "parcel": "latest"
   }
 }
