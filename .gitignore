@@ -102,6 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+.parcel-cache
+.vscode
+node_modules
 
 
 
