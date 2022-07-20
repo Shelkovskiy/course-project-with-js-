@@ -22,8 +22,7 @@ fetch('https://62c5d1d6134fa108c25d507d.mockapi.io/card')
       return res.json()
    } else 
    console.log("ERROR")
-   throw Error} 
-   )
+   throw Error} )
 .then(image_Card => {
    imageCard = image_Card;
    
@@ -39,9 +38,9 @@ fetch('https://62c5d1d6134fa108c25d507d.mockapi.io/card')
       const img = document.createElement('img');
       img.src = image.src; 
       card_img.append(img);
-      card.append(card_img)
+      card.append(card_img)  
   
-  
+
       const card_title = document.createElement('div')
       card_title.className = 'card-title'
       const card_h4 = document.createElement('h4')
@@ -68,14 +67,13 @@ fetch('https://62c5d1d6134fa108c25d507d.mockapi.io/card')
 
       card_wrapper.append(card);
 
-     
       // Сохраняем в LS 
    addToBoard_1.addEventListener('click',() =>{
       const oldCard = JSON.parse(localStorage.getItem(BOARD_1_KEY));
       const newCard = { id:image.id, label:image.label, src: image.src }
       const  cardToSave = oldCard ? [newCard, ...oldCard] : [newCard]
       localStorage.setItem(BOARD_1_KEY, JSON.stringify(cardToSave))
-  })
+})
 
    addToBoard_2.addEventListener('click',() =>{
       const oldCard = JSON.parse(localStorage.getItem(BOARD_2_KEY));
@@ -90,15 +88,12 @@ fetch('https://62c5d1d6134fa108c25d507d.mockapi.io/card')
       const  cardToSave = oldCard ? [newCard, ...oldCard] : [newCard]
       localStorage.setItem(BOARD_3_KEY, JSON.stringify(cardToSave))
 })
-
-  })
-    
- } 
+})
+} 
 ).catch(error =>{
    console.log(error)
   }
-  )
-
+)
 
 // Поиск(фильтр) по совпадениям из юзер инпут и текстам внутри объекта
 
