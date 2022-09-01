@@ -1,61 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./scss/index.scss">
-   <link rel="icon" href="./img/71633_pinterest_favicon_icon.png" >
-   <title>Pinterest</title>
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./scss/index.scss" />
+		<link rel="icon" href="./img/71633_pinterest_favicon_icon.png" />
+		<title>Pinterest</title>
+	</head>
 
-<body>
-  <header class="header">
-   <div class="container" id="container">
-    <div class="search">
-      <div>
-      <button class="main-str" id="main-str"  >
-         interest
-      </button>
-   </div>
-      
-   <input 
-      type="search"
-      class="userInput" 
-      id="userInput" 
-      autofocus
-      placeholder="Введите что-нибудь!"
-       />
-   
-      <div class="dropdown">
-       <button class="dropbtn" id="dropbtn">Выбрать доску</button>
-        <div id="myDropdown" class="dropdown-content">
-          <button class="board" id="board-1">Доска №1</button>
-          <button class="board" id="board-2">Доска №2</button>
-          <button class="board" id="board-3">Доска №3</button>
-       
-       </div>
-      </div>
+	<body>
+		<header class="header">
+			<div class="container" id="container">
+				<div class="search">
+					<div>
+						<button class="main-str" id="main-str">interest</button>
+					</div>
 
-    </div>
-        
-<div id="card_wrapper">
-         </div>   
-   </div>
-</header>
+					<input
+						type="search"
+						class="userInput"
+						id="userInput"
+						autofocus
+						placeholder="Введите что-нибудь!"
+					/>
 
-   <script src="./js/index.js" type="module"> </script>
- 
-</body>
+					<div class="dropdown">
+						<button class="dropbtn" id="dropbtn">Выбрать доску</button>
+						<div id="myDropdown" class="dropdown-content">
+							<button class="board" id="board-1">Доска №1</button>
+							<button class="board" id="board-2">Доска №2</button>
+							<button class="board" id="board-3">Доска №3</button>
+						</div>
+					</div>
+				</div>
+
+				<div id="card_wrapper"></div>
+			</div>
+		</header>
+
+		<script src="./js/index.js" type="module"></script>
+	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
- 

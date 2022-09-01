@@ -1,8 +1,9 @@
 // Рисуем новые карточки
 export const displayCard = (cards) => {
-   if(cards) {
-    const searchCard = cards.map((card) =>{
-       return `
+	if (cards) {
+		const searchCard = cards
+			.map((card) => {
+				return `
       
          <div class="card" id ="${card.id}">
             <div class="card-img">
@@ -24,10 +25,9 @@ export const displayCard = (cards) => {
           </div>
         
                       `;
-       }).join('');
-   
-   card_wrapper.innerHTML = searchCard;
-   
-  }
-} 
+			})
+			.join("");
 
+		card_wrapper.innerHTML = searchCard;
+	}
+};
